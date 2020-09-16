@@ -10,5 +10,5 @@ def batch_badge_creator(attendees)
   badge_names << badge_maker(person)  
   end
   badge_names
-  binding.pry  
 end
+binding.pry
