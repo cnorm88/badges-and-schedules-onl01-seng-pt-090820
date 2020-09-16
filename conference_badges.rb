@@ -18,10 +18,13 @@ def assign_rooms(people)
 end
 
 def printer(people)
-  binding.pry
+  # binding.pry
   batch_badge_creator(attendees).each do |badge|
     puts badge
   end  
   
+  assign_rooms(people).each do |rooms|
+    puts rooms
+  end  
 end  
   
