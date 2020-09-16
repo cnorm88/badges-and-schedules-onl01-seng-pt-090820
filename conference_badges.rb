@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
   attendees.map {|person| badge_maker(person)}
   
 end
-
+binding.pry
 def assign_rooms(people)
   people.map do |person|
     "Hello #{person}"
