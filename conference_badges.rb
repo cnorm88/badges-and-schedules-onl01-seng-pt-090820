@@ -9,9 +9,9 @@ def batch_badge_creator(attendees)
   attendees.map {|person| badge_maker(person)}
   
 end
-binding.pry
+
 def assign_rooms(people)
-  people.map do |person|
-    "Hello, #{person}!"
+  people.each_with_index do |person, index|
+    "Hello, #{person}!" 
   end
 end
