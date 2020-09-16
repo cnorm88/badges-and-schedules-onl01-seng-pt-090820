@@ -8,6 +8,6 @@ def batch_badge_creator(attendees)
   badge_names = []
   attendees.each do |person|
   badge_names << badge_maker(person)  
-  binding.pry
-  end  
+  end
+  binding.pry  
 end
