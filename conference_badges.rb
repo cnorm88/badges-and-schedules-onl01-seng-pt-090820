@@ -11,4 +11,3 @@ def batch_badge_creator(attendees)
   end
   badge_names
 end
-binding.pry
