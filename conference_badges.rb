@@ -6,5 +6,6 @@ end
 
 def batch_badge_creator(people)
   people.map do |person|
+    person
   end  
 end
