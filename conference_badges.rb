@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendes)
-  attendes.map do |people|
+  
     
   end  
 end
