@@ -9,5 +9,5 @@ def batch_badge_creator(attendees)
   attendees.map do |person|
     badge_maker(person)  
   end
-  badge_names
+  
 end
