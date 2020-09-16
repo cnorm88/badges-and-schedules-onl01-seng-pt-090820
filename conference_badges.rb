@@ -9,3 +9,5 @@ def batch_badge_creator(attendees)
   attendees.map {|person| badge_maker(person)}
   
 end
+
+def 
