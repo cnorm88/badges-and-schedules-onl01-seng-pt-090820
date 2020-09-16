@@ -9,5 +9,6 @@ def batch_badge_creator(attendees)
   attendees.each do |person|
   badge_names << badge_maker(person)  
   end
+  badge_names
   binding.pry  
 end
