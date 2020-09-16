@@ -13,6 +13,6 @@ end
 def assign_rooms(people)
   people.each_with_index do |person, index|
     binding.pry
-    "Hello, #{person}!" "You'll be assigned to room #{index}!"
+    "Hello, #{person}! You'll be assigned to room #{index}!"
   end
 end
